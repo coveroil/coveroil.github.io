@@ -29,8 +29,10 @@
       Yikers! It don't work on ye browser.
     </video>
     <script>
-      console.log("Gottem."); 
-      document.getElementById("v").muted = false;
+      console.log("Gottem.");
+      setTimeout(() => {
+        document.getElementById("v").muted = false;
+      }, 100);
     </script>
   </body>
 </html>
