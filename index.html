@@ -24,13 +24,14 @@
     </style>
   </head>
   <body>
-    <video autoplay muted id="v">
+    <video id="v">
       <source src="./video.mp4" type="video/mp4">
       Yikers! It don't work on ye browser.
     </video>
     <script>
       console.log("Gottem."); 
-      document.getElementById("v").setAttribute("muted", false);
+//       document.getElementById("v").setAttribute("muted", false);
+      document.getElementById("v").play();
     </script>
   </body>
 </html>
